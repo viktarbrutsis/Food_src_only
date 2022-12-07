@@ -1,29 +1,22 @@
 {
-  "name": "food",
+  "name": "food_src_only",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/viktarbrutsis/Food_src_only.git"
+  },
   "author": "",
   "license": "ISC",
-  "browserslist": [
-    "last 2 chrome versions",
-    "last 2 firefox versions",
-    "last 2 ios versions"
-  ],
+  "bugs": {
+    "url": "https://github.com/viktarbrutsis/Food_src_only/issues"
+  },
+  "homepage": "https://github.com/viktarbrutsis/Food_src_only#readme",
   "devDependencies": {
-    "@babel/preset-env": "^7.19.4",
-    "@babel/core": "^7.19.6",
-    "babel-loader": "^9.0.0",
-    "browser-sync": "^2.27.10",
-    "autoprefixer": "^9.7.1",
-    "gulp": "^4.0.2",
-    "gulp-clean-css": "^4.2.0",
-    "gulp-postcss": "^8.0.0",
-    "gulp-sass": "^5.1.0",
-    "sass": "^1.50.0",
-    "webpack-stream": "^7.0.0"
+    "json-server": "^0.17.1"
   }
 }
